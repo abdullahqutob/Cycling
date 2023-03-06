@@ -1,0 +1,27 @@
+
+getRankedAdjustedElapsedTimesInStage(sid, rider id)
+getRiderAdjustedElapsedTimeInStage(sid, rider id) - changes to times if riders times are close together
+
+getRidersRankInStage(sid) - a list of rider ids based on elapsed in stage
+getGeneralClassificationTimesInRace(race id) - get list of riders times sorted by the sum of elapsed
+
+getRidersMountainPointsInStage(sid) -  list of mountain points for each rider in the stage, sorted by finish time
+getRidersMountainPointsInRace(race id) -  list of sum of mountain points from stages, sorted by total elapsed time
+
+getRidersPointsInStage(sid) - list of points received by rider in stage
+
+
+getRidersGeneralClassificationRank(race id) - get list of ordered rider ids based on time
+
+
+getRidersMountainPointClassificationRank(race id) - list of rider ids based on um of mountain points
+getRidersPointsInRace(race id) - list of sum of points in all stages sorted by elapsed time
+getRidersPointClassificationRank(race id) - ranked list of rider ids sorted by total race points (winner declared)
+
+
+
+
+
+unrelated to points:
+viewRaceDetails
+
